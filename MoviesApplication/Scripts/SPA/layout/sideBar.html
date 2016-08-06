@@ -1,0 +1,21 @@
+﻿<div class="btn-group" is-open="status.isopen">
+    <a href="" id="single-button" class="navbar-brand active dropdown-toggle" data-toggle="dropdown">
+        Home Cinema
+        <span class="caret"></span>
+    </a>
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="single-button">
+        <li role="menuitem"><a ng-href="#/">Home<i class="fa fa-home fa-fw pull-right"></i></a></li>
+        <li role="separator" class="divider" ></li>
+        <li role="menuitem"><a ng-href="#/customers/">Customers<i class="fa fa-users fa-fw pull-right"></i></a></li>
+        <li role="menuitem"><a ng-href="#/customers/register">Register customer<i class="fa fa-user-plus fa-fw pull-right"></i></a></li>
+        <li role="separator" class="divider" ></li>
+        <li role="menuitem"><a ng-href="#/movies/">Movies<i class="fa fa-film fa-fw pull-right"></i></a></li>
+        <li role="menuitem"><a ng-href="#/movies/add">Add movie<i class="fa fa-plus-circle fa-fw pull-right"></i></a></li>
+        <li role="separator" class="divider" ></li>
+        <li role="menuitem"><a ng-href="#/rental/">Rental history<i class="fa fa-leanpub fa-fw pull-right"></i></a></li>
+        <li role="separator" class="divider" ></li>
+        <li role="menuitem"><a ng-href="#/login" ng-if="!userData.isUserLoggedIn()">Login<i class="fa fa-sign-in fa-fw pull-right"></i></a></li>
+        <li role="menuitem" ><a class="cursor-pointer" ng-click="userData.logout();" ng-if="userData.isUserLoggedIn()">Logout<i class="fa fa-sign-out fa-fw pull-right"></i></a></li>
+    </ul>
+</div>

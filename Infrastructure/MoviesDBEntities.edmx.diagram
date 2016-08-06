@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e0f1c2b7036b45849c10382af883a568" Name="Diagram1">
+        <EntityTypeShape EntityType="MoviesDBModel.Customer" Width="1.5" PointX="7.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesDBModel.Error" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesDBModel.Genre" Width="1.5" PointX="2.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesDBModel.Movie" Width="1.5" PointX="5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesDBModel.Rental" Width="1.5" PointX="9.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesDBModel.Role" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesDBModel.Stock" Width="1.5" PointX="7.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesDBModel.User" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesDBModel.UserRole" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="MoviesDBModel.FK_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesDBModel.FK_Genre" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesDBModel.FK_MovieId" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesDBModel.FK_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesDBModel.FK_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesDBModel.FK_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
